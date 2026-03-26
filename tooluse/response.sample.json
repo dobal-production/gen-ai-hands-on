@@ -1,0 +1,45 @@
+{
+  "ResponseMetadata": {
+    "RequestId": "ea01c1a1-54d1-4671-af3c-0f954ecd46d3",
+    "HTTPStatusCode": 200,
+    "HTTPHeaders": {
+      "date": "Thu, 26 Mar 2026 07:16:23 GMT",
+      "content-type": "application/json",
+      "content-length": "490",
+      "connection": "keep-alive",
+      "x-amzn-requestid": "ea01c1a1-54d1-4671-af3c-0f954ecd46d3"
+    },
+    "RetryAttempts": 0
+  },
+  "output": {
+    "message": {
+      "role": "assistant",
+      "content": [
+        {
+          "text": "쿠팡의 티커를 찾아보겠습니다!"
+        },
+        {
+          "toolUse": {
+            "toolUseId": "tooluse_wF0Ve5usGFJa06IcT2ZPJF",
+            "name": "find_ticker",
+            "input": {
+              "company_name": "coupang"
+            },
+            "type": "tool_use"
+          }
+        }
+      ]
+    }
+  },
+  "stopReason": "tool_use",
+  "usage": {
+    "inputTokens": 784,
+    "outputTokens": 80,
+    "totalTokens": 864,
+    "cacheReadInputTokens": 0,
+    "cacheWriteInputTokens": 0
+  },
+  "metrics": {
+    "latencyMs": 2071
+  }
+}

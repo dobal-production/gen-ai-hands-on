@@ -1,0 +1,12 @@
+[project]
+name = "fsi-regulation"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "streamlit==1.48.0",
+    "boto3>=1.34.0",
+    "botocore>=1.34.0",
+    "python-dotenv>=1.0.0",
+    "strands-agents>=1.33.0",
+    "strands-agents-tools>=0.2.20",
+]
